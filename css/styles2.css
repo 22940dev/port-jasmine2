@@ -1,0 +1,267 @@
+
+.parallax {
+  /* The image used */
+  background-image: url("boxbrand.jpg");
+
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+body {
+                font-family: 'Source Sans Pro', sans-serif;
+                padding: 0;
+                margin: 0;
+                color: black;
+                background-color: black;
+            }
+            
+            a {color: antiquewhite; text-decoration: none;}
+            a:hover {color: grey;}
+            
+            header {
+                background-color: aliceblue; 
+                height: 10vh;
+            }
+
+<
+
+
+
+
+h1 {font-family: "Bodoni", serif; font-size: 6em; color: black;}
+h2 {font-family: "Times", serif; font-size: 5em; color: antiquewhite;}
+h3 {font-family: "Times", serif; font-size: 2em; color: antiquewhite;}
+h4 {font-family: "Times", serif; font-size: 1.8em; color: black;}
+h5 {font-family: "Times", serif; font-size: 4em; color: antiquewhite;}
+h6 {font-family: "Times", serif; font-size: 1.5em; color: antiquewhite;}
+
+h1 {
+  position: absolute;
+  top: 198px;
+  left: 146px;
+}
+.navigation {background-color: black;}
+            
+            .navigation ul {
+                display: flex; 
+                justify-content: center;
+                list-style: none;
+            }
+.navigation ul li {padding: 30px;  }
+            
+
+
+@media (max-width: 600px) {
+            .navigation ul {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                padding: 0;
+                margin: 0;
+                }
+                
+            .navigation ul li {
+                padding-top: 30px;
+                padding-bottom: 30px;
+                background-color: black;
+            }
+    
+            .navigation ul li:hover {
+                background-color: aliceblue;
+            }
+            
+            }
+        
+            
+            header {
+                display: grid;
+                background-image: url("../img/norway.jpg");
+                background-size: cover;
+                min-height: 100vh;
+                justify-content: center;
+                align-content: center;
+            }
+
+                .about {
+                display:grid;
+                color: antiquewhite;
+                background-color: black;
+                }
+
+            .about-item {
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+            }
+            
+            .about-item img {
+            width: 100%;
+            object-fit: cover;
+            }
+
+
+
+h2 {
+   position: absolute;
+   top: 96px;
+   left: 81px;  
+   font-size:7em;
+    
+}
+
+
+
+h4 {
+     
+  position: absolute;
+  width:28em;  
+  top: 328px;
+  left: 81px;
+  font-size:1.38em;  
+  color:antiquewhite  
+}
+
+
+            
+            .portfolio {
+                display: grid;
+                color: black;
+                padding-bottom: 30px;
+            }
+    
+            .portfolio-item {
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            grid-gap: 20px;
+            }
+            
+            .portfolio-item img {
+            width: 100%;
+            object-fit: contain;
+            }
+
+main {
+    padding-left: 300px;
+    padding-right: 300px;
+    color:white;
+    background-color: black;
+
+} 
+
+
+
+ 
+     
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 43px;
+  padding-left:1px; 
+ 
+}
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 43px;
+  padding-left:1px; 
+ 
+}
+         
+
+.column2 {
+  flex: 33.33%;
+  padding: 43px;
+ 
+}    
+         
+  
+.column3 {
+  flex: 33.33%;
+  padding: 43px;
+   }     
+         
+
+p {
+    margin-top: -23px;
+    line-height:1.8em;
+    width: 41em;
+}
+    
+    
+    
+    
+    
+    
+}
+ 
+    
+    
+    
+        
+           
+
+
+
+
+
+
+
+
+
+footer {
+                background-color: #333333; 
+                min-height: 20vh;
+                padding: 20px;
+                color: antiquewhite;
+             text-align: center;  }
+    
+             
+        footer h3 {
+                 font-size: 2em;
+             }
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #333333; 
+  color: antiquewhite; 
+  border: 2px solid ;
+}
+
+.button1:hover {
+  background-color: antiquewhite;
+  color: black;
+}
